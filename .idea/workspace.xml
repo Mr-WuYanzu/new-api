@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44759cba-be4e-4bf6-97dc-63104e4b522c" name="默认的" comment="" />
+    <list default="true" id="44759cba-be4e-4bf6-97dc-63104e4b522c" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/token/TokenController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
@@ -89,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="33" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -119,11 +121,11 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ApiregController.php" />
         <option value="$PROJECT_DIR$/resources/views/firm/list.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/CheckUserController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/api/ApiController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/CheckAccesstokenMiddleware.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/token/TokenController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -216,7 +218,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="165" />
     <option name="y" value="35" />
     <option name="width" value="1750" />
@@ -361,12 +363,12 @@
       <workItem from="1557023976812" duration="862000" />
       <workItem from="1557708380852" duration="162000" />
       <workItem from="1558313537743" duration="31704000" />
-      <workItem from="1558401245273" duration="10450000" />
+      <workItem from="1558401245273" duration="10823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43178000" />
+    <option name="totallyTimeSpent" value="43551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -551,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/api/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285">
@@ -593,6 +588,13 @@
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="33" selection-end-column="99" />
         </state>
       </provider>
     </entry>
