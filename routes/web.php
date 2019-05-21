@@ -28,10 +28,10 @@ Route::middleware('auth')->group(function(){
 Route::middleware(['access_token','Token'])->group(function(){
     //显示客户端ip
         Route::get('/clientip','api\ApiController@client_ip');
-//    //显示客户端UA
-//        Route::get('/clientua','api\ApiController@clientua');
-//    //显示客户端UA
-//        Route::get('/reginfo','api\ApiController@regInfo')->middleware(['Token','access_token']);
+    //显示客户端UA
+        Route::get('/clientua','api\ApiController@clientua');
+    //显示客户端UA
+        Route::get('/reginfo','api\ApiController@regInfo')->middleware(['Token','access_token']);
 });
 //获取access_token
     Route::get('/getAccess_token','token\TokenController@access_token')->middleware('Token');

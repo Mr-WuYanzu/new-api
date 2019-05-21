@@ -10,27 +10,27 @@ class ApiController extends Controller
 {
     //显示客户端ip
     public function client_ip(){
-       $ip=$_SERVER['REMOTE_ADDR'];
-       $response=[
-           'errno'=>'60006',
-           'msg'=>'ok',
-           'data'=>[
-               'ip'=>$ip
-           ]
-       ];
-       return json_encode($response,JSON_UNESCAPED_UNICODE);
+//       $ip=$_SERVER['REMOTE_ADDR'];
+//       $response=[
+//           'errno'=>'60006',
+//           'msg'=>'ok',
+//           'data'=>[
+//               'ip'=>$ip
+//           ]
+//       ];
+//       return json_encode($response,JSON_UNESCAPED_UNICODE);
     }
     //显示客户端UA
     public function clientua(){
-        $ua=$_SERVER['HTTP_USER_AGENT'];
-        $response=[
-            'errno'=>'60006',
-            'msg'=>'ok',
-            'data'=>[
-                'ua'=>$ua
-            ]
-        ];
-        return json_encode($response,JSON_UNESCAPED_UNICODE);
+//        $ua=$_SERVER['HTTP_USER_AGENT'];
+//        $response=[
+//            'errno'=>'60006',
+//            'msg'=>'ok',
+//            'data'=>[
+//                'ua'=>$ua
+//            ]
+//        ];
+//        return json_encode($response,JSON_UNESCAPED_UNICODE);
     }
     //显示用户注册信息
     public function regInfo(){
